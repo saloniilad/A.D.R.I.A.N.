@@ -29,7 +29,7 @@ class JarvisUI {
         
         // Welcome message
         setTimeout(() => {
-            const welcomeMessage = "Hello! I'm Jarvis, your personal AI assistant. I can help you with calculations, provide information from Wikipedia, tell jokes, show the current time and date, open websites, and much more. How can I assist you today?";
+            const welcomeMessage = "Hello! I'm Adrian, your personal AI assistant. I can help you with calculations, provide information from Wikipedia, tell jokes, show the current time and date, open websites, and much more. How can I assist you today?";
             this.addMessage(welcomeMessage, 'assistant');
             this.speakText(welcomeMessage);
         }, 500);
