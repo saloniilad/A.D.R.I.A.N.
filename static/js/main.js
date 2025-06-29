@@ -353,9 +353,9 @@ class JarvisUI {
         messageDiv.innerHTML = `
             <div class="message-header">
                 <div class="message-avatar ${sender}-avatar">
-                    ${sender === 'user' ? 'U' : 'J'}
+                    ${sender === 'user' ? 'U' : 'A'}
                 </div>
-                <span class="message-sender">${sender === 'user' ? 'You' : 'Jarvis'}</span>
+                <span class="message-sender">${sender === 'user' ? 'You' : 'Adrian'}</span>
             </div>
             <div class="message-content">
                 ${this.formatMessage(content)}
